@@ -1,0 +1,276 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+/*Navbar Customize*/
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.panda-logo {
+  width: 80%;
+  height: auto;
+}
+.navbar-form {
+  width: 52%;
+  position: relative;
+}
+.search-icon {
+  position: absolute;
+  top: 13px;
+  right: 15px;
+  color: #bababa;
+  cursor: pointer;
+}
+.navbar-search {
+  width: 100%;
+  height: 35px;
+  border: none;
+  border-radius: 22px;
+  background-color: #f8f8f8;
+  padding-left: 18px;
+}
+.navbar-search:focus {
+  outline: none;
+  border: 1px solid crimson;
+  border-radius: 22px;
+}
+li.nav-item {
+  margin-left: 20px;
+}
+::placeholder {
+  color: #cccccc;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #cccccc;
+}
+
+::-ms-input-placeholder {
+  color: #cccccc;
+}
+@media screen and (max-width: 1200px) {
+  .navbar-form {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .navbar-form {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .search-icon {
+    top: 10px;
+  }
+}
+/*Slider Part*/
+.panda-slider {
+  background: #feeae9;
+  border-radius: 15px;
+  padding: 32px 0px;
+}
+.slider-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pslider-name {
+  font-size: 2rem;
+  color: #1f1f1f;
+  font-weight: 600;
+}
+.pslider-des {
+  color: #707070;
+  font-size: 16px;
+}
+.pslider-price {
+  color: #ff136f;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.pslider-btn,
+.send-btn {
+  background-image: linear-gradient(#ff589b, #ff136f);
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 5px;
+  padding: 4px 17px;
+}
+.pslider-img {
+  height: auto;
+  width: 80%;
+}
+.slider-details {
+  padding: 0px 10% 0px 12%;
+}
+@media screen and (max-width: 765px) {
+  .pslider-img {
+    width: 100%;
+    height: 75%;
+  }
+  .pslider-name {
+    font-size: 19px;
+    margin-bottom: 4px;
+  }
+  .pslider-des {
+    font-size: 10px;
+    margin-bottom: 4px;
+  }
+  .pslider-price {
+    font-size: 20px;
+    margin-bottom: 4px;
+  }
+  .pslider-btn {
+    font-size: 12px;
+  }
+  .panda-slider {
+    padding: 10px 0px;
+  }
+}
+
+/*Catagory Section*/
+.sec-title,
+.psec-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.catagory-box {
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 0px;
+  border-radius: 10px;
+}
+.watch {
+  background-image: linear-gradient(to bottom right, #ff9c35, #ffd019);
+}
+.bag {
+  background-image: linear-gradient(#ff589b, #ff136f);
+}
+.shoe {
+  background-image: linear-gradient(to bottom right, #4289ff, #3f07f8);
+}
+.catagory-name {
+  margin: 0;
+  color: white;
+  font-size: 35px;
+}
+.catagory-img {
+  width: 135px;
+  height: auto;
+}
+@media screen and (max-width: 1200px) {
+  .catagory-name {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 765px) {
+  .catagory-name {
+    font-size: 35px;
+  }
+  .catagory-box {
+    margin-top: 10px;
+  }
+}
+
+/*empty*/
+.empty {
+  width: 100%;
+  height: 200px;
+}
+/*Middle Section*/
+
+.middle {
+  background: #f4f6f6;
+  margin-top: 45px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/*Product Section*/
+.psec-title {
+  margin-left: 15px;
+}
+.product-img {
+  width: 100%;
+  height: auto;
+}
+.product-column {
+  padding: 0px 30px;
+}
+.product-box {
+  box-shadow: 2px 2px 8px #e1e7e7;
+  padding: 50px 18px;
+  text-align: center;
+  border-radius: 20px;
+  background: white;
+}
+.product-name {
+  margin-top: 30px;
+  font-weight: 600;
+}
+.product-des {
+  font-size: 12px;
+  color: gray;
+}
+.product-price {
+  font-weight: 600;
+  margin-top: 30px;
+}
+.buy-btn {
+  border: none;
+  background: black;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 5px 14px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 765px) {
+  .product-column {
+    padding: 0px 10px;
+    margin-top: 20px;
+  }
+  .psec-title {
+    margin-left: 0px;
+  }
+}
+/*Footer */
+.footer {
+  background: #feeae9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px;
+}
+.email-box {
+  width: 500px;
+}
+.email-title {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.email-subtitle {
+  font-size: 13px;
+  color: gray;
+}
+.email-input {
+  outline: none;
+  border: none;
+}
+.send-btn {
+  border-radius: 0px;
+}
+@media screen and (max-width: 765px) {
+  .email-box {
+    width: 90%;
+  }
+}
